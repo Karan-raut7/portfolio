@@ -31,7 +31,7 @@ nav{
 footer{
     display: flex;
     
-    bottom: 20px;
+    bottom: auto;
     gap: 2px;
 
 }
@@ -98,4 +98,3 @@ footer{
     flex-direction:column;
     gap:15px;
     }
-    
