@@ -98,3 +98,35 @@ footer{
     flex-direction:column;
     gap:15px;
     }
+img {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.projects{
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;
+}
+.project-card{
+    width: 300px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #333;
+
+    transition: .3s;
+}
+.project-card:hover{
+    transform: translateY(-10px);
+    border-color: #4fc3f7;
+    box-shadow: 0 0 20px rgba(79,195,247,.3);
+}
+@media (max-width:768px){
+    .projects{
+        flex-direction:column;
+        gap:20px;
+    }
+}
