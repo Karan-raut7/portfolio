@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Karan Raut | Backend Developer</title>
+    <title>Karan Raut | Python Backend Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    
     <nav>
         <h2>KARAN RAUT</h2>
 
@@ -23,85 +22,98 @@
         </div>
     </nav>
 
-
-   
+    <!-- HERO -->
     <section class="hero" id="home">
 
         <img src="My-Pic.png" alt="Karan Raut">
 
         <div class="hero-content">
+
             <p class="eyebrow">PYTHON BACKEND DEVELOPER</p>
 
-        <h1>Hi, I'm Karan Raut.</h1>
+            <h1>Hi, I'm Karan Raut.</h1>
 
-        <h2>I build backend applications with Python.</h2>
+            <h2>I build backend systems, APIs and applications.</h2>
 
-    <p>
-    I build APIs, authentication systems, and real-time applications
-    with Python and FastAPI.
-</p>
+            <p>
+                Python backend developer focused on building scalable APIs,
+                authentication systems, database-driven applications and
+                real-time services using modern backend technologies.
+            </p>
 
             <div class="hero-buttons">
-                <a href="#projects" class="btn primary">View Projects</a>
+
+                <a href="#projects" class="btn primary">
+                    View Projects
+                </a>
 
                 <a
                     href="https://github.com/karan-raut7"
                     class="btn secondary"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     GitHub
                 </a>
+
             </div>
+
         </div>
 
     </section>
 
-
-    
+    <!-- ABOUT -->
     <section id="about">
 
         <p class="section-label">ABOUT ME</p>
 
-        <h2>Building my way into backend engineering.</h2>
+        <h2>Building real-world backend applications.</h2>
 
         <p class="about-text">
-            I'm a Python-focused backend developer interested in building
-            APIs, authentication systems, database-driven applications
-            and real-time software. I'm currently developing Clout, a
-            real-time chat application, while continuing to deepen my
-            backend engineering skills.
+            I'm a Python backend developer focused on designing and building
+            APIs, authentication systems, database-driven applications and
+            real-time services. I've built projects involving JWT
+            authentication, refresh token rotation, WebSockets, PostgreSQL,
+            file management and API development. I'm continuously improving
+            my backend engineering skills while exploring machine learning
+            and generative AI.
         </p>
 
     </section>
 
+    <!-- SKILLS -->
+<section id="skills">
 
-    <section id="skills">
+    <p class="section-label">TECH STACK</p>
 
-        <p class="section-label">SKILLS</p>
+    <h2>Technologies I work with.</h2>
 
-        <h2>Technologies I work with.</h2>
+    <div class="skills">
 
-        <div class="skills">
+        <div>Python</div>
+        <div>FastAPI</div>
+        <div>Flask</div>
+        <div>PostgreSQL</div>
+        <div>SQLite</div>
+        <div>SQLAlchemy</div>
+        <div>Alembic</div>
+        <div>WebSockets</div>
+        <div>JWT Authentication</div>
+        <div>Refresh Token Rotation</div>
+        <div>Token Reuse Detection</div>
+        <div>Rate Limiting</div>
+        <div>Async Python</div>
+        <div>Pytest</div>
+        <div>File Streaming</div>
+        <div>REST API Design</div>
+        <div>Git</div>
+        <div>Linux</div>
 
-            <div>Python</div>
-            <div>FastAPI</div>
-            <div>Flask</div>
-            <div>REST APIs</div>
-            <div>WebSockets</div>
-            <div>JWT Authentication</div>
-            <div>SQLAlchemy</div>
-            <div>JavaScript</div>
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>Git</div>
-            <div>GitHub</div>
+    </div>
 
-        </div>
+</section>
 
-    </section>
-
-
-    
+    <!-- PROJECTS -->
     <section id="projects">
 
         <p class="section-label">PROJECTS</p>
@@ -110,42 +122,98 @@
 
         <div class="projects">
 
-            
+            <!-- AUTHKIT -->
             <div class="project-card featured">
 
-                <span class="status">🚧 IN DEVELOPMENT</span>
+                <span class="status">BUILT</span>
 
-                <h3>Clout — Real-time Chat Application</h3>
+                <h3>AuthKit — Authentication API</h3>
 
                 <p>
-                    A real-time chat application built with Python and
-                    FastAPI. I'm currently implementing WebSocket
-                    communication, authentication, room management and
-                    database integration.
+                    A production-oriented authentication API featuring
+                    password hashing, JWT authentication, refresh token
+                    rotation, token reuse detection, rate limiting and
+                    PostgreSQL database integration.
                 </p>
 
                 <p class="tech">
-                    Python • FastAPI • WebSockets • JWT • SQLAlchemy
+                    Python • FastAPI • PostgreSQL • SQLAlchemy • Alembic • JWT
                 </p>
 
                 <a
-                    href="https://github.com/karan-raut7"
+                    href="https://github.com/karan-raut7/AuthKit"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     View on GitHub →
                 </a>
 
             </div>
 
+            <!-- CLOUT -->
+            <div class="project-card featured">
 
-            
-            <div class="project-card">
+                <span class="status live">LIVE</span>
 
-                <h3>📝 Notes REST API</h3>
+                <h3>Clout — Real-time Chat Application</h3>
 
                 <p>
-                    A Flask REST API supporting CRUD operations for
-                    managing notes.
+                    A real-time chat application featuring JWT
+                    authentication, WebSocket communication, room
+                    management, message editing, room deletion and
+                    real-time message broadcasting.
+                </p>
+
+                <p class="tech">
+                    Python • FastAPI • WebSockets • SQLAlchemy • JWT • JavaScript
+                </p>
+
+                <a
+                    href="https://github.com/karan-raut7/clout"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View on GitHub →
+                </a>
+
+            </div>
+
+            <!-- POCKETNAS -->
+            <div class="project-card featured">
+
+                <span class="status">BUILT</span>
+
+                <h3>PocketNAS — Personal File Server</h3>
+
+                <p>
+                    A personal server platform designed to turn an Android
+                    device into a file server. Features file uploads,
+                    downloads, streaming, authentication, storage management
+                    and a web-based interface.
+                </p>
+
+                <p class="tech">
+                    Python • FastAPI • PostgreSQL • SQLAlchemy • File Streaming
+                </p>
+
+                <a
+                    href="https://github.com/karan-raut7/PocketNAS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View on GitHub →
+                </a>
+
+            </div>
+
+            <!-- NOTES API -->
+            <div class="project-card">
+
+                <h3>Notes REST API</h3>
+
+                <p>
+                    A REST API built with Flask for managing notes through
+                    CRUD operations.
                 </p>
 
                 <p class="tech">
@@ -154,28 +222,10 @@
 
             </div>
 
-
-            
+            <!-- JS NOTES -->
             <div class="project-card">
 
-                <h3>🎓 Student Management API</h3>
-
-                <p>
-                    A backend application for managing student records
-                    through CRUD operations.
-                </p>
-
-                <p class="tech">
-                    Python • Flask
-                </p>
-
-            </div>
-
-
-            
-            <div class="project-card">
-
-                <h3>📒 JavaScript Notes App</h3>
+                <h3>JavaScript Notes App</h3>
 
                 <p>
                     A browser-based notes application with add, edit,
@@ -192,8 +242,7 @@
 
     </section>
 
-
-  
+    <!-- CONTACT -->
     <section id="contact">
 
         <p class="section-label">CONTACT</p>
@@ -201,8 +250,8 @@
         <h2>Let's build something.</h2>
 
         <p>
-            Interested in working together or discussing backend
-            development? Feel free to reach out.
+            Interested in backend development, collaborating on projects
+            or discussing technology? Feel free to connect.
         </p>
 
         <div class="contact-links">
@@ -210,22 +259,19 @@
             <a
                 href="https://github.com/karan-raut7"
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 GitHub
             </a>
-
-            
 
         </div>
 
     </section>
 
-
-    
+    <!-- FOOTER -->
     <footer>
-        <p>Made with 💖 by Karan Raut</p>
+        <p>Made with ❤️ by Karan Raut</p>
     </footer>
 
 </body>
 </html>
-
